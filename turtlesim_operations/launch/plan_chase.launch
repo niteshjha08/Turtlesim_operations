@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+	<param name="caughtStatus" value="False"/>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtle" />
+	<node pkg="turtlesim_operations" type="circles" name="circler" />
+	<node pkg="turtlesim_operations" type="turtlespawn" name="spawner"/>
+	<node pkg="turtlesim_operations" type="chase_limit_accel_vel_plan" name="grider" launch-prefix="xterm -e"/>
+	
+	
+
+</launch>
+

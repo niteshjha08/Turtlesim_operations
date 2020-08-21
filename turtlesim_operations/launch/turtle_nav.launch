@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="turtlesim_operations" type="go_to_goal" name="goal_nav" launch-prefix="xterm -e"/>
+	<node pkg="turtlesim" type="turtlesim_node" name="turtle"/>
+	
+	
+
+</launch>
+
