@@ -23,7 +23,7 @@ Result plot:
 To limit the accelerations, a function step_vel has been used. In this, the target velocity is sent, and it increases the velocity in steps. Before publishing this velocity, however, the step is checked for its value.
 The maximum acceleration limits are defined, and can be changed. The delta(time) is recorded for each stage of velocity increment. If the velocity step/delta(time) is greater than the maximum value, the step size is reset to maximum allowable value
 w.r.t. that particular delta(time). This process is done for both linear and angular acceleration/deceleration.
-![goal1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2.PNG)
+![goal2](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2.png)
 The gradual rise of the velocities (linear,angular) are shown in the figure. The node for this is `goal_accel_decel.py`
 Implementation and result curve is shown [here](https://drive.google.com/file/d/17wUH6rEMyw2ZPY3DMOKhlmDHWdiCQKIG/view)
 
@@ -41,13 +41,13 @@ The acceleration parameters are varied and trajectory recorded for them
 
 [Here](https://drive.google.com/file/d/1OFy4_0Em83y32akhVC60_gH7-NU7M5I2/view) is the full video of the resulting grid
 Grid 1: Max_accel_linear: 1500, Max_accel_angular:6000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid1.png)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2-grid1.PNG)
 
 Grid 2: Max_accel_linear: 2500, Max_accel_angular:8000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid2.png)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2-grid2.PNG)
 
 Grid 3:Max_accel_linear: 12000 Max_accel_angular:12000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid3.png)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2-grid3.PNG)
 
 
 ### Task 3: Take user input radius and velocity limit to form circular path with the turtlebot
@@ -71,7 +71,7 @@ Due to the increased speed, PT can reach RT’s last location quickly. But the  
 [Here](https://drive.google.com/file/d/1RDmeeTQgVahchoQr88Pp8beO4Pa8VEZQ/view) is the full video of the chase.
 Here, the radius of the circle is 2 units, and velocity of RT is 2 units. PT has limit on acceleration, not on speed.
 In this example, it took one rt_real_pose to reach within 3 units of RT
-![goal4](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal4.png)
+![goal4](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal4.PNG)
 dx=2 units, dy=0.9 units.
 
 
