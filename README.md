@@ -16,7 +16,7 @@ Position tolerance: 0.5 units
 ![goal1_gif](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal1_gif.gif)
 Here is the [full video](https://drive.google.com/file/d/1keQcUVyqBggQXRcfeCemUhhf8-HpUMrL/view)
 Result plot:
-![goal1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal1.PNG)
+![goal1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal1.png)
 [Here](https://drive.google.com/file/d/1lUXga59tx0Sdz5LdBZiTxlYbsAQ85CT0/view) is the video of verifying result positions
 
 ### Task 2: Implement maximum accelerations and form a grid path
@@ -41,13 +41,13 @@ The acceleration parameters are varied and trajectory recorded for them
 
 [Here](https://drive.google.com/file/d/1OFy4_0Em83y32akhVC60_gH7-NU7M5I2/view) is the full video of the resulting grid
 Grid 1: Max_accel_linear: 1500, Max_accel_angular:6000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid1.PNG)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid1.png)
 
 Grid 2: Max_accel_linear: 2500, Max_accel_angular:8000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid2.PNG)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid2.png)
 
 Grid 3:Max_accel_linear: 12000 Max_accel_angular:12000
-![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid3.PNG)
+![grid1](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal2_grid3.png)
 
 
 ### Task 3: Take user input radius and velocity limit to form circular path with the turtlebot
@@ -71,7 +71,7 @@ Due to the increased speed, PT can reach RT’s last location quickly. But the  
 [Here](https://drive.google.com/file/d/1RDmeeTQgVahchoQr88Pp8beO4Pa8VEZQ/view) is the full video of the chase.
 Here, the radius of the circle is 2 units, and velocity of RT is 2 units. PT has limit on acceleration, not on speed.
 In this example, it took one rt_real_pose to reach within 3 units of RT
-![goal4](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal4.PNG)
+![goal4](https://github.com/niteshjha08/Turtlesim_operations/blob/master/turtlesim_operations/images/goal4.png)
 dx=2 units, dy=0.9 units.
 
 
